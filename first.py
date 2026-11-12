@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 llm = ChatOllama(
     model="qwen3.5:4b",
-    temperature=0.7,
+    temperature=0.6,
 )
 
 # Create Chat Prompt Template
