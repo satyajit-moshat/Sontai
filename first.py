@@ -26,7 +26,7 @@ chain = prompt | llm
 
 # Invoke chain
 response = chain.invoke({
-    "topic": "What is the capital of India?"
+    "topic": "What is the capital of Nepal?"
 })
 
 print(response)
